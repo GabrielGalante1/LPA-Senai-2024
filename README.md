@@ -8,6 +8,3 @@ Lógica de Programação e Algoritmos - 1º Semestre de 2024
 ## Cronograma
 - [X] Aula 04 - Introdução ao Github(07/02/2024)
    - Criação do perfil no Github
-
-
-PALMOEIRAS É UM BANDO DE PALHAÇO sim
