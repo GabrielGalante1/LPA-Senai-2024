@@ -10,4 +10,4 @@ Lógica de Programação e Algoritmos - 1º Semestre de 2024
    - Criação do perfil no Github
 
 
-PALMOEIRAS É UM BANDO DE PALHAÇO
+PALMOEIRAS É UM BANDO DE PALHAÇO sim
