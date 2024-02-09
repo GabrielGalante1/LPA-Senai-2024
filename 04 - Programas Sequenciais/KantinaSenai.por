@@ -5,6 +5,7 @@
 
 programa
 {
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 
@@ -35,7 +36,7 @@ programa
 		tot_refri = qtd_refri*PRECO_REFRI
 		tot_sobremesa = qtd_sobremesa*PRECO_SOBREMESA
 
-		tot_total = tot_coxinha + tot_refri + tot_sobremesa
+		tot_total = mat.arredondar(tot_coxinha + tot_refri + tot_sobremesa, 2)
 
 		limpa()
 
@@ -54,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1260; 
+ * @POSICAO-CURSOR = 811; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
