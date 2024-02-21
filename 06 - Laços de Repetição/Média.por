@@ -23,7 +23,7 @@ programa
 			cont++
 		}
 
-		media = soma / 108
+		media = soma / 10
 		limpa()
 		escreva("A Média é: ", media)
 	}
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 310; 
+ * @POSICAO-CURSOR = 309; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
