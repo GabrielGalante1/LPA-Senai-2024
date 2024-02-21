@@ -1,13 +1,22 @@
 
 /*
- * Algoritmo:
+ * Algoritmo: Verificar Idade
+ * @Gabriel Galante
+ * Data: 21/02/2024
  */
 programa
 {
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro idade
+
+		faca
+		{
+			escreva("Informe sua idade(Valores acima de 14):")
+			leia(idade)
+		} enquanto (idade < 14)
+		escreva("Idade foi inserida com Sucesso!\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 17; 
+ * @POSICAO-CURSOR = 207; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
