@@ -1,3 +1,8 @@
+/*
+ *Algoritmo: Animação para printar caractere por caractere
+ *@Gabriel Galante
+ *Data: 28/02/2024
+ */
 programa
 {
 	inclua biblioteca Texto
@@ -19,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 277; 
+ * @POSICAO-CURSOR = 180; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
