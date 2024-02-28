@@ -1,3 +1,9 @@
+/*
+ *Algoritmo: Matriz 2
+ *@Gabriel Galante
+ *Data: 28/02/2024
+ */
+ 
 programa
 {
 	inclua biblioteca Util --> pabens
@@ -17,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 54; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
