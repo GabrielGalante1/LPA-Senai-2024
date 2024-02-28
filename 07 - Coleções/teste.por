@@ -1,32 +1,16 @@
 programa
 {
-	inclua biblioteca Util --> util
+	inclua biblioteca Texto
+	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro duracao = 24
-		inteiro hora = 0
-		
-		enquanto (verdadeiro)
+		cadeia frase = "oi Heitor Galdino Traspadini"
+
+		para (inteiro i = 0; i < Texto.numero_caracteres(frase); i++)
 		{
-			hora += 1
-			se (hora >= 0 e hora <= 11)
-			{
-				escreva("Agora são: ", hora, " da manhã\n")
-			}
-			senao se (hora >= 12 e hora <= 17)
-			{
-				escreva("Agora são: ", hora, " da tarde\n")
-			}
-			senao se (hora >= 18 e hora <= 24)
-			{
-				escreva("Agora são: ", hora, " da noite\n")
-			}
-				
-			se (hora >= duracao)
-			{
-				hora = 0
-			}
-			util.aguarde(1000)
+			caracter caractere = Texto.obter_caracter(frase, i)
+			escreva(caractere, "")
+			Util.aguarde(60)
 		}
 	}
 }
@@ -35,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 272; 
+ * @POSICAO-CURSOR = 277; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
