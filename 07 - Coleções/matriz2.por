@@ -10,12 +10,18 @@ programa
 	funcao inicio()
 	{
 		real coordenadas[][] = {{1.5,1.2}, {2.5,2.8}, {69.0,78.0}}
-
-		//escreva(pabens.numero_colunas(coordenadas))
+		exibir(coordenadas)
+	}
+	funcao exibir(real coordenadas[][])
+	{
 		para (inteiro i = 0; i < pabens.numero_linhas(coordenadas); i++)
 		{
-			escreva(coordenadas[i][0]," | ", coordenadas[i][1], "\n")
+			para(inteiro o = 0; o < pabens.numero_colunas(coordenadas); o++)
+			{
+				escreva(coordenadas[i][o], "\n")
+			}
 		}
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 54; 
+ * @POSICAO-CURSOR = 217; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
