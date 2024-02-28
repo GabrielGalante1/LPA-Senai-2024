@@ -12,6 +12,7 @@ programa
 		real coordenadas[][] = {{1.5,1.2}, {2.5,2.8}, {69.0,78.0}}
 		exibir(coordenadas)
 	}
+	
 	funcao exibir(real coordenadas[][])
 	{
 		para (inteiro i = 0; i < pabens.numero_linhas(coordenadas); i++)
@@ -29,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 448; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
