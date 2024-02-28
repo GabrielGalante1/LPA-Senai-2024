@@ -1,7 +1,7 @@
 /*
  *Algoritmo: Pesquisa
  *@Gabriel Galante
- *Data: 23/02/2024
+ *Data: 28/02/2024
  */
 
 programa
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 405; 
+ * @POSICAO-CURSOR = 77; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
